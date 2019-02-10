@@ -14,6 +14,7 @@ class Book
     private int pages;
     private String refNumber;
     private int borrowed;
+    private boolean courseText;
     /**
      * Set the author and title fields when this object
      * is constructed.
@@ -84,4 +85,17 @@ class Book
     {
         return borrowed;
     }
+    
+    private void isCourseText ( boolean courseText)
+    {
+        if (courseText = true)
+        {
+            System.out.println("The book is course text");
+        }
+        else 
+        {
+            System.out.println("This books is not a course text");
+        }
+    }
+    
 }
