@@ -58,9 +58,12 @@ class Book
         System.out.println("Pages: " + pages);
         System.out.println("Reference number: " + refNumber);
     }
-    
+    public String getRefNumber()
+    {
+        return refNumber;
+    }
     public void setRefNumber (String ref)
     {
-        get
+        refNumber = ref; 
     }
 }
